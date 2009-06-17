@@ -17,6 +17,8 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: gconfmm2.6-devel >= 2.6.0
 BuildRequires: libgnomemm2.6-devel >= 2.6.0
 BuildRequires: gnome-panel-devel >= 2.14.0
+#gw libtool dep:
+BuildRequires: libglade2.0-devel
 BuildRequires: doxygen, graphviz
 
 
