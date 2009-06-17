@@ -5,7 +5,7 @@
 
 Name:		libpanelappletmm
 Version:        2.26.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        C++ interface for Gnome panel applets
 
 Group:          System/Libraries
@@ -41,6 +41,8 @@ Summary:  Headers for developing programs that will use %{name}
 Group:    Development/C++
 Requires: %{libname} = %{version}-%{release}
 Provides: %name-devel = %version-%release
+#gw libtool dep:
+Requires: libglade2.0-devel
 
 %description -n %develname
 This package contains the static libraries and header files needed for
