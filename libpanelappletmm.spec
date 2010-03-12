@@ -5,7 +5,7 @@
 
 Name:		libpanelappletmm
 Version:        2.26.0
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        C++ interface for Gnome panel applets
 
 Group:          System/Libraries
