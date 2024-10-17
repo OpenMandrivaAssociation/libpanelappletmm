@@ -10,7 +10,7 @@ Summary:        C++ interface for Gnome panel applets
 
 Group:          System/Libraries
 License:        LGPLv2+
-URL:            http://gtkmm.sourceforge.net/
+URL:            https://gtkmm.sourceforge.net/
 Source0:        http://ftp.gnome.org/pub/GNOME/sources/%name/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
