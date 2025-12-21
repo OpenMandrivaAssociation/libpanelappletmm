@@ -14,6 +14,11 @@ URL:            https://gtkmm.sourceforge.net/
 Source0:        http://ftp.gnome.org/pub/GNOME/sources/%name/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gconfmm2.6-devel >= 2.6.0
 BuildRequires: libgnomemm2.6-devel >= 2.6.0
 BuildRequires: gnome-panel-devel >= 2.14.0
